@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="dlform.css">
+    <script src="form.js"></script>
+</head>
+<body>
+<div class="tuto-ribbons">
+<ul>
+    <li>
+        <h3>1. Choose your favourite Yes Equality ribbon</h3>
+        <div class="ribbons">
+            <ul class="color">
+
+                <li>
+                    <label for="color-white" class="white">
+                        <span><input type="radio" name="color" id="color-white" onChange="updateFormURL();"
+                                     value="white_" checked="checked"> White</span>
+                    </label>
+                </li>
+                <li>
+                    <label for="color-camo" class="camo">
+                        <span><input type="radio" name="color" id="color-camo" onChange="updateFormURL();" value="camo_"> Camo</span>
+                    </label>
+                </li>
+            </ul>
+            <h3>2. Where would you like to position your ribbon on your site?</h3>
+            <ul class="position">
+                <li>
+                    <label for="position-1">
+                        <span><input type="radio" name="style" id="position-1" onChange="updateFormURL();"  value="top_left"> Top-Left</span>
+                    </label>
+                </li>
+                <li>
+                    <label for="position-2">
+                        <span><input type="radio" name="style" id="position-2" onChange="updateFormURL();" value="top_right" checked="checked">
+                            Top-Right</span>
+                    </label>
+                </li>
+                <li>
+                    <label for="position-3">
+                        <span><input type="radio" name="style" id="position-3" onChange="updateFormURL();" value="bottom_left"> Bottom-Left</span>
+                    </label>
+                </li>
+                <li>
+                    <label for="position-4">
+                        <span><input type="radio" name="style" id="position-4" onChange="updateFormURL();" value="bottom_right"> Bottom-Right</span>
+                    </label>
+                </li>
+            </ul>
+
+        </div>
+    </li>
+
+</ul>
+    <div></div>
+    <pre id="codeSnippet">
+        http://hackforequality.github.io/ribbon/img/<span id="output_value"></span>.png
+    </pre>
+</div>
+
+</body>
+</html>
