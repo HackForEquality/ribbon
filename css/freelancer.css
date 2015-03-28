@@ -102,13 +102,13 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px rgba(36, 39, 46, 0.7);
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px rgba(36, 39, 46, 0.7);
 }
 
 @media(min-width:768px) {
