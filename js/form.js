@@ -1,5 +1,5 @@
 function updateFormURL () {
-    var inputs = document.querySelectorAll(".ribbons input");
+    var inputs = document.querySelectorAll("#ribbon-form input");
     inputs = Array.prototype.slice.call(inputs);
     var template_parts = inputs.filter(function (element) {
         return element.checked;
