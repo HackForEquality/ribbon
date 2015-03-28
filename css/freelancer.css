@@ -82,7 +82,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background-image: url("http://hackforequality.github.io/ribbon/img/background.jpg");
+    background-size: cover;
 }
 
 header .container {
